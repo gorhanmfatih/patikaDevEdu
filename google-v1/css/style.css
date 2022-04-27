@@ -1,0 +1,170 @@
+/* Reset Css Start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background: #F4F7F9;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+.btn {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 1px 6px;
+    margin: 5px 5px;
+}
+
+/* Reset Css End */
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.container .logo a img {
+    width: 351px;
+    height: 113px;
+}
+
+.container .search-box {
+    height: 70px;
+    width: 1174px;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .search-box p {
+    margin-top: 5px;
+}
+
+.container .search-box input {
+    width: 280px;
+    height: 21.5px;
+    border-radius: 4px;
+    padding-left: 5px;
+    margin-top: 4px;
+}
+
+.container .search-box .button {
+    display: flex;
+    justify-content: center;
+}
+
+.container .footer {
+    width: 1174px;
+    height: 100px;
+    display: flex;
+    margin-top: 3px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .footer .box-1 {
+    width: 455px;
+    height: 100px;
+    background: #7EE4DA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .footer .box-2 {
+    width: 350px;
+    height: 100px;
+    background: #6FCCC2;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .footer .box-3 {
+    width: 509px;
+    height: 100px;
+    background: #62B3AA;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .footer .box-3 input {
+    height: 23px;
+    margin-top: 2px;
+    padding: 0 5px;
+}
+
+.container .copy {
+    margin-top: 15px;
+    margin-right: 20px;
+    font-style: italic;
+    font-size: 12px;
+}
